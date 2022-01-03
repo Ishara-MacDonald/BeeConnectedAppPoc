@@ -61,8 +61,7 @@
 }
 footer{
   height:100px;
-  background-color: rgb(128, 89, 128);
-  border-top:5px solid black;
+  background-color: rgb(24, 24, 24);
 }
 /* #nav{
   margin:0;
