@@ -8,7 +8,7 @@
       <li><router-link to="/login">Log In</router-link></li>
     </ul>
   </div>
-  <router-link id="contact-hover" to="/contact">
+  <router-link id="contact-floating" to="/contact">
     <h2>✉ Contact Us!</h2>
   </router-link>
   <router-view/>
@@ -25,14 +25,14 @@
   z-index: 10;
   position: sticky;
   overflow: hidden;
-  background-color: rgb(51, 137, 207);
+  background-color: rgb(133, 200, 226);
 }
 #app {
   color: white;
   background-color: rgb(248, 248, 248);
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
-#contact-hover{
+#contact-floating{
   right:20px;
   width:200px;
   height:50px;
@@ -44,11 +44,11 @@
   justify-content: center;
   background-color: rgb(51, 137, 207);
 }
-#contact-hover:hover{
+#contact-floating:hover{
   background-color: rgb(33, 104, 163);
   cursor: pointer;
 }
-#contact-hover h2{
+#contact-floating h2{
   font-size: 17px;
   font-weight: normal;
   letter-spacing: 1px;
@@ -99,40 +99,10 @@ button:hover{
   text-decoration: none;
 }
 #top-nav-bar li a:hover{
-  background-color: rgb(33, 104, 163);
+  background-color: rgb(51, 137, 207);
 }
 #top-nav-bar li a.router-link-exact-active{
   font-weight: 600;
   color: rgb(11, 50, 82);
 }
-/* #nav{
-  margin:0;
-  padding:0px;
-  width:100%;
-  background-color: #b94642;
-  height:50px;
-  position: fixed;
-}
-#top-nav-bar{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(0, 138, 252);
-  top: 0;
-  float:right;
-  height: 100%;
-}
-#top-nav-bar li{
-  display:inline;
-  height:50px;
-  text-align: center;
-}
-#top-nav-bar a{
-  padding: 14px 16px;
-  color: white;
-}
-#top-nav-bar a.router-link-exact-active {
-  color: #b94642;
-}*/
 </style>
