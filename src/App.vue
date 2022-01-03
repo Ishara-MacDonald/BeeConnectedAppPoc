@@ -25,7 +25,7 @@
   z-index: 10;
   position: sticky;
   overflow: hidden;
-  background-color: rgb(133, 200, 226);
+  background-color: rgb(51, 137, 207);
 }
 #app {
   color: white;
@@ -99,7 +99,7 @@ button:hover{
   text-decoration: none;
 }
 #top-nav-bar li a:hover{
-  background-color: rgb(51, 137, 207);
+  background-color: rgb(33, 104, 163);
 }
 #top-nav-bar li a.router-link-exact-active{
   font-weight: 600;
