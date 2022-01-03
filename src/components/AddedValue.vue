@@ -32,9 +32,6 @@
 #value-info{
     background-color: rgb(31, 31, 31);
     padding:50px;
-    border:3px solid rgb(142, 191, 211);
-    /* border-bottom: 0; */
-    border-left: 0;
 }
 
 #value-info h1, h2, h3, h4, h5, h6{

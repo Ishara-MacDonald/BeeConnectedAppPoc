@@ -20,7 +20,7 @@
 #home-profile{
   /* background-image: url("../assets/city-view-spedup.png"); */
   background: linear-gradient(to top, transparent, rgba(236, 245, 247, 0.548)),
-  linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.89)),
+  linear-gradient(to bottom, transparent, rgba(10, 10, 10, 0.534)),
   url("../assets/city-view-spedup.png");
   /* margin: 0 10%; */
   height:600px;

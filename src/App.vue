@@ -28,7 +28,7 @@
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   color: white;
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(248, 248, 248);
   /* background-color:#252427; */
 }
 
