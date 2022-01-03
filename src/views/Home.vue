@@ -35,8 +35,8 @@ export default {
   transform: translate(-50%, -50%);
 }
 .interval{
-  height:20px;
+  height:3px;
   width:100%;
-  background-color: rgb(205, 223, 235);
+  background-color: rgb(203, 234, 247);
 }
 </style>
