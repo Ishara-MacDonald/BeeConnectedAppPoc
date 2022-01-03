@@ -4,11 +4,13 @@
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/assignments">Assignments</router-link></li>
       <li><router-link to="/news">News</router-link></li>
-      <li><router-link to="/contact">Contact</router-link></li>
       <li><router-link to="/about">About</router-link></li>
       <li><router-link to="/login">Log In</router-link></li>
     </ul>
   </div>
+  <router-link id="contact-hover" to="/contact">
+    <h2>✉ Contact Us!</h2>
+  </router-link>
   <router-view/>
   <footer></footer>
 </template>
@@ -19,17 +21,43 @@
   padding:0px;
 }
 #nav{
-  overflow: hidden;
-  background-color: rgb(133, 200, 226);
-  position: sticky;
   top:0;
   z-index: 10;
+  position: sticky;
+  overflow: hidden;
+  background-color: rgb(133, 200, 226);
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   color: white;
   background-color: rgb(248, 248, 248);
-  /* background-color:#252427; */
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+#contact-hover{
+  right:20px;
+  width:200px;
+  height:50px;
+  bottom:20px;
+  display: flex;
+  position:fixed;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  background-color: rgb(51, 137, 207);
+}
+#contact-hover:hover{
+  background-color: rgb(33, 104, 163);
+  cursor: pointer;
+}
+#contact-hover h2{
+  font-size: 17px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: white;
+}
+
+footer{
+  height:100px;
+  background-color: rgb(24, 24, 24);
 }
 button{
   background-color: transparent;
@@ -76,10 +104,6 @@ button:hover{
 #top-nav-bar li a.router-link-exact-active{
   font-weight: 600;
   color: rgb(11, 50, 82);
-}
-footer{
-  height:100px;
-  background-color: rgb(24, 24, 24);
 }
 /* #nav{
   margin:0;

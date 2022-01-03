@@ -36,17 +36,13 @@
   width:400px;
   position: relative;
   border-radius: 25px;
-  padding:0px;
-  margin:0px;
 }
-
 #profile-bit{
   background-color: black;
   padding:20px;
   border-radius: 25px;
   height: 90%;
 }
-
 #profile-details{
   text-align: center;
 }

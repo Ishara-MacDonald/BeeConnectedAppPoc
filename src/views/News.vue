@@ -50,16 +50,15 @@ h3 {
   letter-spacing: 1.5px;
   font-weight: normal;
 }
-
 p {
   line-height: 35px;
   font-size: 15px;
   letter-spacing: 0.5px;
   padding-bottom: 15px;
 }
-
 img {
   width: 90%;
   height: 290px;
+  border: 2px solid rgb(177, 177, 177);
 }
 </style>
