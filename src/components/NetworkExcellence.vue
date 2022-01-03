@@ -7,10 +7,6 @@
       knowledge and operational excellence.
     </p>
     <p>
-      The 'Network of Excellence' will develop scalable and sustainable
-      pan-European organisational roadmaps and solutions with joined effort to
-      shape the future of Networking and Security by putting smaller and larger
-      companies in the driver’s seat.
     </p>
   </div>
 </template>
