@@ -31,6 +31,25 @@
   background-color: rgb(248, 248, 248);
   /* background-color:#252427; */
 }
+button{
+  background-color: transparent;
+  width: 140px;
+  height:45px;
+  border:1px solid black;
+  color: black;
+  font-size: 15px;
+}
+button a{
+  text-decoration: none;
+  padding:20px;
+  height:100%;
+  width:100%;
+}
+button:hover{
+  background-color: black;
+  transition: 0.4s ease;
+  color: white;
+}
 
 #top-nav-bar {
   margin: 0;

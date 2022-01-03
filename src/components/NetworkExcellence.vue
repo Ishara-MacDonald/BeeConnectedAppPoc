@@ -8,6 +8,9 @@
     </p>
     <p>
     </p>
+    <router-link to="/about">
+        <button>Learn More</button>
+    </router-link>
   </div>
 </template>
 
