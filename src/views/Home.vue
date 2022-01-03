@@ -1,19 +1,20 @@
 <template>
   <div id="home">
     <home-profile></home-profile>
-    <div id="added-value">
-    </div>
+    <div class="interval"></div>
+    <added-value> </added-value>
   </div>
 </template>
 
 <script>
+import AddedValue from '../components/AddedValue.vue'
 import HomeProfile from '../components/HomeProfile.vue'
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
-  components: { HomeProfile }
+  components: { HomeProfile, AddedValue }
 }
 </script>
 
@@ -28,5 +29,10 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.interval{
+  height:40px;
+  width:100%;
+  background-color: black;
 }
 </style>

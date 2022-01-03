@@ -18,13 +18,16 @@
 
 <style scoped>
 #home-profile{
-  background-image: url("../assets/city-view-spedup.png");
+  /* background-image: url("../assets/city-view-spedup.png"); */
+  background: linear-gradient(to top, transparent, rgba(236, 245, 247, 0.548)),
+  linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.89)),
+  url("../assets/city-view-spedup.png");
   /* margin: 0 10%; */
-  height:700px;
+  height:600px;
   width:100%;
   min-width: 450px;
-  background-color: aquamarine;
-  background-size: 120% 120%;
+  background-color: rgb(151, 201, 184);
+  background-size: 100% 100%;
 }
 
 #profile-container{

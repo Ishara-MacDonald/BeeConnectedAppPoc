@@ -10,6 +10,7 @@
     </ul>
   </div>
   <router-view/>
+  <footer></footer>
 </template>
 
 <style>
@@ -19,14 +20,17 @@
 }
 #nav{
   overflow: hidden;
-  background-color: rgb(0, 138, 252);
+  background-color: rgb(133, 200, 226);
   position: sticky;
   top:0;
+  z-index: 10;
+  border-bottom:5px solid black;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   color: white;
-  background-color:#92c2e0;
+  background-color: rgb(24, 24, 24);
+  /* background-color:#252427; */
 }
 
 #top-nav-bar {
@@ -49,10 +53,16 @@
   text-decoration: none;
 }
 #top-nav-bar li a:hover{
-  color: rgb(218, 125, 125);
+  background-color: rgb(51, 137, 207);
 }
 #top-nav-bar li a.router-link-exact-active{
-  color: #bd2d2d;
+  font-weight: 600;
+  color: rgb(11, 50, 82);
+}
+footer{
+  height:100px;
+  background-color: rgb(128, 89, 128);
+  border-top:5px solid black;
 }
 /* #nav{
   margin:0;
