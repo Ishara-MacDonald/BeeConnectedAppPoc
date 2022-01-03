@@ -15,12 +15,12 @@
 
 <style scoped>
 #added-value{
-    height:600px;
+    height:700px;
     width:100%;
 }
 #value-container{
     display: grid;
-    width:70%;
+    width:80%;
     height:100%;
     grid-template-columns: 35% 65% ;
     margin: 0 auto;
@@ -31,7 +31,7 @@
 }
 #value-info{
     background-color: rgb(31, 31, 31);
-    padding:50px;
+    padding:58px 120px;
 }
 
 #value-info h1, h2, h3, h4, h5, h6{

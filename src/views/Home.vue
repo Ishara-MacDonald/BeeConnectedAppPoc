@@ -3,18 +3,20 @@
     <home-profile></home-profile>
     <div class="interval"></div>
     <added-value> </added-value>
+    <network-excellence></network-excellence>
   </div>
 </template>
 
 <script>
 import AddedValue from '../components/AddedValue.vue'
 import HomeProfile from '../components/HomeProfile.vue'
+import NetworkExcellence from '../components/NetworkExcellence.vue'
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
-  components: { HomeProfile, AddedValue }
+  components: { HomeProfile, AddedValue, NetworkExcellence }
 }
 </script>
 
