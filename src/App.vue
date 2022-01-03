@@ -13,7 +13,7 @@
 </template>
 
 <style>
-body{
+*, body{
   margin:0;
   padding:0px;
 }
@@ -23,9 +23,16 @@ body{
   position: sticky;
   top:0;
 }
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  background-color:#92c2e0;
+}
+
 #top-nav-bar {
   margin: 0;
   padding: 0;
+  padding-right: 50px;
   height: 100px;
   float:right;
   list-style-type: none;
@@ -34,7 +41,6 @@ body{
   float: left;
   height:100%;
 }
-
 #top-nav-bar li a {
   display: block;
   color: white;
@@ -42,7 +48,6 @@ body{
   padding: 41px 18px;
   text-decoration: none;
 }
-
 #top-nav-bar li a:hover{
   color: rgb(218, 125, 125);
 }
@@ -79,10 +84,4 @@ body{
 #top-nav-bar a.router-link-exact-active {
   color: #b94642;
 }*/
-
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  color: white;
-  background-color:#92c2e0;
-}
 </style>
