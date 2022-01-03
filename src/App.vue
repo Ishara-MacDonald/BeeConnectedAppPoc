@@ -24,7 +24,6 @@
   position: sticky;
   top:0;
   z-index: 10;
-  border-bottom:5px solid black;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

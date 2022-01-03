@@ -9,7 +9,7 @@
 #assignment-view{
     margin:0 auto;
     padding: 100px 0px 0px 0px;
-    width:80%;
+    width:90%;
     height: auto;
     min-height:650px;
     background-color: white;
