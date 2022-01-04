@@ -18,7 +18,36 @@
     <router-view/>
   </div>
   <footer>
-    <img src="assets/beeconnected-logo.png" alt="beeconnected-logo">
+    <img class="logo-footer" src="../src/assets/beeconnected-logo.png" alt="beeconnected-logo">
+    <div class="footer-details">
+      <div class="footer-text">
+        <div class="logo-space"></div>
+        <h3>BEECONNECTED IT SERVICES</h3>
+        <div class="logo-space"></div>
+        <h3>Brian Mac Donald</h3>
+        <div class="logo-space">
+          <img src="../src/assets/location-icon.png" alt="location-icon">
+        </div>
+        <h3>Doncanstraat 12<br>1447 PK Purmerend</h3>
+        <div class="logo-space">✆</div>
+        <h3>+31 628 639 860</h3>
+        <div class="logo-space">✉</div>
+        <h3>info@beeconnected.nl</h3>
+      </div>
+    </div>
+    <div class="footer-links">
+      <ul>
+        <li>Home</li>
+        <li>Visie</li>
+        <li>Nieuws</li>
+        <li>Samenwerken</li>
+        <li>Contact</li>
+      </ul>
+      <ul>
+        <li>Facebook</li>
+        <li>Instagram</li>
+      </ul>
+    </div>
   </footer>
 </template>
 
@@ -81,10 +110,10 @@
 }
 
 #contact-floating{
-  right:20px;
+  right:120px;
   width:200px;
   height:50px;
-  bottom:20px;
+  bottom:70px;
   z-index: 10;
   display: flex;
   position:fixed;
@@ -109,12 +138,55 @@ footer {
   height: 300px;
   background-color: rgb(111, 184, 212);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 20% 40% 25%;
+  grid-gap: 30px;
+}
+footer .logo-footer{
+  height:250px;
+  width:250px;
+  margin: auto auto;
+}
+footer .footer-details{
+  height: 80%;
+  margin: auto 0;
+  width:100%;
+}
+.footer-text{
+  padding:20px 10px;
+  padding-right: 50px;
+  display: grid;
+  grid-template-columns: 20px auto;
+  border: solid 2px white;
+  grid-gap: 5px;
+  width:fit-content;
+}
+.footer-text h3{
+  font-family: 'Audiowide';
+  font-size: 17px;
+  font-weight: normal;
+  margin: 5px 0;
+}
+.footer-text .logo-space{
+  margin:auto auto;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-footer img{
-  height:300px;
-  width:300px;
+.footer-links{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding:30px 0px;
+  padding-left: 100px;
+  line-height: 40px;
+}
+
+.footer-links li{
+  list-style-type: none;
+}
+
+.logo-space img{
+  height: 20px;
+  width: 15px;
 }
 button{
   background-color: transparent;
