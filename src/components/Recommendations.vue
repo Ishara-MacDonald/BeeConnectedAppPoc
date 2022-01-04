@@ -2,7 +2,7 @@
   <div id="recommendations">
     <div id="recommendations-container">
       <div id="recommendation-details">
-        <h1>Recommendations</h1>
+        <h1>Aanbevelingen</h1>
         <p class="recommendation">
           'I’ve come to know Brian as an enthusiastic person, who has broad
           experience in networking and its related disciplines and is a fine

@@ -3,7 +3,19 @@
     <h1>Our assignments</h1>
     <h2>Nothing to book right now. Check back soon!</h2>
   </div>
+  <recommendations class="home-component"></recommendations>
 </template>
+
+<script>
+import Recommendations from '../components/Recommendations.vue'
+// @ is an alias to /src
+// import HelloWorld from '@/components/HelloWorld.vue'
+
+export default {
+  name: 'Assignments',
+  components: { Recommendations }
+}
+</script>
 
 <style scoped>
 #assignment-view {

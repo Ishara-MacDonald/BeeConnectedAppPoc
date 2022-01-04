@@ -22,12 +22,12 @@
     display: grid;
     width:80%;
     height:100%;
-    grid-template-columns: 35% 65% ;
+    grid-template-columns: 60% 40%;
     margin: 0 auto;
 }
 #value-picture{
-    background-image: url("../assets/main_walking_glass_office.png");
-    background-size: 100% 110%;
+    background-image: url("../assets/added-value-hand-shaking.png");
+    background-size: 100% 100%;
 }
 #value-info{
     background-color: rgb(31, 31, 31);
