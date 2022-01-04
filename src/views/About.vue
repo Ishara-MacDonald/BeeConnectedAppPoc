@@ -1,5 +1,8 @@
 <template>
-  <div id="vision-mision">
+  <div id="vision-mission">
+    <div id="main-vision-mission">
+      <h1>Onze Visie en Missie</h1>
+    </div>
     <div id="vision-container" class="container">
       <div id="vision-details" class="details">
         <h1>Visie</h1>
@@ -12,11 +15,11 @@
       </div>
       <div id="vision-img" class="container-img"></div>
     </div>
-    <div id="mision-container" class="container">
+    <div id="mission-container" class="container">
       <div id="mission-img" class="container-img"></div>
-      <div id="mision-details" class="details">
+      <div id="mission-details" class="details">
         <h1>Missie</h1>
-        <p class="mision">
+        <p class="mission">
           'Aangezien IT stevig in het hart van onze samenleving staat,
           moeten we rekening houden met het multi-dimensionale gebruik en
           de enorme toename in de vraag naar cloud, data, verschillende
@@ -31,13 +34,41 @@
 </template>
 
 <style scoped>
-#vision-mision {
+#main-vision-mission{
+  /* background: linear-gradient(to top, transparent, rgba(236, 245, 247, 0.548)),
+  linear-gradient(to bottom, transparent, rgba(10, 10, 10, 0.534)),
+  url("../assets/city-view-spedup.png"); */
+  background-image: linear-gradient(to top, transparent 65%, rgb(236, 245, 247) 80%),
+  url("../assets/view-city-tech-man.png");
+  height:700px;
+  margin-top:-175px;
+  background-size: 100% 110%;
+  border-bottom: 5px solid black;
+}
+
+#main-vision-mission h1{
+  padding: 200px;
+  /* -webkit-text-fill-color: white; Will override color (regardless of order) */
+  font-family: 'AudioWide';
+  font-weight: bolder;
+  font-size: 70px;
+  text-align: center;
+  /* -webkit-text-stroke: 1px black; */
+  color:white;
+  text-shadow:
+       4px 4px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+#vision-mission {
   height: auto;
   width: 100%;
   border-bottom: 0;
   border-top: 0;
 }
-
 #vision-container{
   grid-template-columns: 60% 40%;
 }
@@ -59,7 +90,7 @@
   background-size: 100% 100%;
 }
 
-#mision-container{
+#mission-container{
   grid-template-columns: 50% 50%;
 }
 .container {
