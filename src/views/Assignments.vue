@@ -1,7 +1,7 @@
 <template>
   <div id="assignment-view">
     <h1>Our assignments</h1>
-    <h2>Nothing to book right now. Check back soon!</h2>
+    <h2>No assignments right now.</h2>
   </div>
   <recommendations class="home-component"></recommendations>
 </template>
@@ -21,13 +21,8 @@ export default {
 #assignment-view {
   margin: 0 auto;
   padding-bottom: 60px;
-  border: 60px solid black;
-  border-bottom: 0;
-  border-top: 0;
   width: 90%;
-  height: auto;
-  min-height: 650px;
-  background-color: white;
+  height: 200px;
   color: black;
   text-align: center;
 }
