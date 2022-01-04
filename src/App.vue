@@ -17,7 +17,9 @@
   <div class="router-view">
     <router-view/>
   </div>
-  <footer> hi</footer>
+  <footer>
+    <img src="assets/beeconnected-logo.png" alt="beeconnected-logo">
+  </footer>
 </template>
 
 <style>
@@ -83,6 +85,7 @@
   width:200px;
   height:50px;
   bottom:20px;
+  z-index: 10;
   display: flex;
   position:fixed;
   align-items: center;
@@ -103,8 +106,15 @@
 
 footer {
   position: relative;
-  height: 100px;
-  background-color: rgb(24, 24, 24);
+  height: 300px;
+  background-color: rgb(111, 184, 212);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer img{
+  height:300px;
+  width:300px;
 }
 button{
   background-color: transparent;
