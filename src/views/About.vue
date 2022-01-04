@@ -10,10 +10,10 @@
           hun digitale reis.'
         </p>
       </div>
-      <img src="" alt="">
+      <div id="vision-img" class="container-img"></div>
     </div>
     <div id="mision-container" class="container">
-      <img src="" alt="">
+      <div id="mission-img" class="container-img"></div>
       <div id="mision-details" class="details">
         <h1>Missie</h1>
         <p class="mision">
@@ -46,13 +46,25 @@
   height: 400px;
   padding: 10% 20%;
 }
+#vision-img{
+  background-image: url("../assets/visie-lamp.png");
+  background-size: 100% 100%;
+}
+
+#mission-img{
+  background-image: url("../assets/mission-man-eye-tech.png");
+}
+
+.container-img{
+  background-size: 100% 100%;
+}
 
 #mision-container{
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 50% 50%;
 }
 .container {
   display: grid;
-  width: 80%;
+  width: 70%;
   margin: 100px auto;
   /* margin-top: 100px; */
   height: 500px;
