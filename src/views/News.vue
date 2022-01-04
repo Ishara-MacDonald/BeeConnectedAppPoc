@@ -1,29 +1,26 @@
 <template>
   <div id="news-overview">
-    <h1>Sleet News</h1>
     <div class="most-recent-news">
-      <h3>BeeConnected Services is live!</h3>
+      <h1>BeeConnected Services is live!</h1>
       <p>
-        It's official!<br />
+        It's official!<br/>
         BeeConnected Services is now an established company, providing expertise
         and knowhow to create, manage all network and security challenges for
         all types of companies throughout The Netherlands and abroad.
       </p>
-      <img src="../assets/beeconnected-core.webp" alt="core" />
+    </div>
+    <img src="../assets/beeconnected-core.webp" alt="core" />
+    <div>
+      <h1>Meer Weten?</h1>
     </div>
   </div>
 </template>
 
 <style scoped>
 #news-overview {
-  margin: 0 auto;
   padding-bottom: 60px;
-  border: 60px solid black;
-  border-bottom: 0;
-  border-top: 0;
-  width: 90%;
+  width: 100%;
   height: auto;
-  min-height: 650px;
   background-color: white;
   color: black;
   text-align: center;
@@ -36,29 +33,25 @@
 }
 
 .most-recent-news {
-  border: 1px solid rgb(177, 177, 177);
-  background-color: rgb(240, 240, 240);
-  height: 500px;
-  width: 600px;
+  background-color: rgb(51, 137, 207);
+  height: auto;
+  width: 100%;
   margin: 0 auto;
-  padding: 30px 50px;
+  padding: 30px 20px;
+  color: white;
 }
 
-h3 {
-  font-size: 30px;
-  padding: 20px 0px;
-  letter-spacing: 1.5px;
-  font-weight: normal;
-}
 p {
   line-height: 35px;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 0.5px;
-  padding-bottom: 15px;
+  padding: 0 450px;
+  padding-bottom: 30px;
 }
 img {
-  width: 90%;
-  height: 290px;
+  margin-top: 100px;
+  width: 700px;
+  height: 100%;
   border: 2px solid rgb(177, 177, 177);
 }
 </style>
