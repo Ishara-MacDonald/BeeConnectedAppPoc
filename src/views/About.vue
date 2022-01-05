@@ -83,7 +83,7 @@
 }
 
 #mission-img{
-  background-image: url("../assets/mission-man-eye-tech.png");
+  background-image: url("../assets/eye-tech-mission.png");
 }
 
 .container-img{
