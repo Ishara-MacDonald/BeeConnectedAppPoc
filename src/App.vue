@@ -11,10 +11,10 @@
       <li><router-link to="/login">Log In</router-link></li>
     </ul>
   </div>
-  <div id="contact-floating" @click="modalToggle">
+  <div id="contact-floating" @click="modalVisible">
     <h2>✉ Contact Us!</h2>
   </div>
-  <div id="modal-background" class="center" v-show="contactVisible" @click="modalToggle"></div>
+  <div id="modal-background" class="center" v-show="contactVisible" @click="modalInvisible"></div>
   <contact-modal class="center" v-show="contactVisible"></contact-modal>
   <div class="router-view">
     <router-view/>
@@ -59,12 +59,15 @@ export default {
   components: { ContactModal },
   data () {
     return {
-      contactVisible: true
+      contactVisible: false
     }
   },
   methods: {
-    modalToggle () {
-      this.contactVisible = !this.contactVisible
+    modalInvisible () {
+      this.contactVisible = false
+    },
+    modalVisible () {
+      this.contactVisible = true
     }
   }
 }
