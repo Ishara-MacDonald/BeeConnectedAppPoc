@@ -11,9 +11,11 @@
       <li><router-link to="/login">Log In</router-link></li>
     </ul>
   </div>
-  <router-link id="contact-floating" to="/contact">
+  <div id="contact-floating" @click="modalToggle">
     <h2>✉ Contact Us!</h2>
-  </router-link>
+  </div>
+  <div id="modal-background" class="center" v-show="contactVisible" @click="modalToggle"></div>
+  <contact-modal class="center" v-show="contactVisible"></contact-modal>
   <div class="router-view">
     <router-view/>
   </div>
@@ -50,6 +52,23 @@
     </div>
   </footer>
 </template>
+
+<script>
+import ContactModal from '../src/views/ContactModal.vue'
+export default {
+  components: { ContactModal },
+  data () {
+    return {
+      contactVisible: true
+    }
+  },
+  methods: {
+    modalToggle () {
+      this.contactVisible = !this.contactVisible
+    }
+  }
+}
+</script>
 
 <style>
 *, body{
@@ -109,6 +128,13 @@
   color: rgb(11, 50, 82);
 }
 
+#modal-background{
+  background-color: rgba(255, 255, 255, 0.705);
+  z-index: 11;
+  height:100%;
+  width:100%;
+  position: fixed;
+}
 #contact-floating{
   right:120px;
   width:200px;
