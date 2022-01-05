@@ -12,26 +12,27 @@
         <h3>- Pieter Luteijn</h3>
         <h4>Networking Specialist</h4>
       </div>
+      <div id="recommendation-image"></div>
     </div>
   </div>
 </template>
 
 <style scoped>
 #recommendations {
-  height: 700px;
+  height: 500px;
   width: 100%;
 }
 #recommendations-container {
   display: grid;
   width: 80%;
   height: 100%;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 55% 45%;
   margin: 0 auto;
 }
 
 #recommendation-details {
   background-color: rgb(31, 31, 31);
-  padding: 60px 200px;
+  padding: 30px 200px;
   text-align: center;
 }
 #recommendation-details h1 {
@@ -54,5 +55,9 @@
     font-size: 15px;
     letter-spacing: 0.5px;
     padding-bottom: 30px;
+}
+#recommendation-image{
+  background-image: url("../assets/teamwork-recommendations.png");
+  background-size: 120% 100%;
 }
 </style>
